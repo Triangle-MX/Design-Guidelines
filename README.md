@@ -52,4 +52,4 @@ The Triangle color scheme consists in mainly 5 colors:
     </li>
 </ul>
 
-If you need any other color (i.e. red for an alert), you can refer to <a href="https://flatuicolor.com">Flat UI Colors</a>.
+If you need any other color (i.e. red for an alert), you can refer to <a href="https://flatuicolors.com">Flat UI Colors</a>.
