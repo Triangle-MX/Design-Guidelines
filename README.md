@@ -13,13 +13,11 @@ Three versions of the logo exist:
     <li>
         <strong>Black Version</strong>
         <p>Can be used over white and light grey backgrounds.</p>
-        <img src="assets/logo/Logo-Black.svg">
         <br><br>
     </li>
     <li>
         <strong>White Version</strong>
         <p>Can be used over yellow, black, blue, and other colored backgrounds backgrounds.</p>
-        <img src="assets/logo/Logo-White.svg">
         <br><br>
     </li>
 </ul>
