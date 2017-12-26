@@ -7,7 +7,6 @@ Three versions of the logo exist:
     <li>
         <strong>Main/Yellow Version</strong>
         <p>Can be used over both white and black backgrounds.</p>
-
         <img src="assets/logo/Logo-Yellow.svg">
         <br><br>
     </li>
