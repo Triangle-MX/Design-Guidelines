@@ -1,0 +1,21 @@
+#form
+    input, textarea
+        padding: 10px
+        display: block
+        margin-bottom: 20px
+        background-color: #FAFAFA
+        width: 100%
+        max-width: 100%
+        color: $black
+        border: 2px solid $white
+        transition: $transition
+        border-radius: $border-radius
+
+        &:active, &:focus
+            outline: none
+            border: 2px solid rgba(0,0,0,0)
+            transform: scale(1.05)
+            box-shadow: $box-shadow
+
+    textarea
+        min-height: 100px

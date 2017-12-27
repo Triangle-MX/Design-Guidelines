@@ -1,0 +1,80 @@
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Anton|Nunito|Montserrat')
+
+//Color Variables
+$yellow: #FFB61E
+$black: #1B1B1B
+$white: #FFFFFF
+$grey: #EEEEEE
+$blue: #1E81FF
+
+//Typography Variables
+$anton: "Anton", "Helvetica Neue", sans-serif
+$montserrat: "Montserrat", "Helvetica Neue", sans-serif
+$lato: "Lato", "Helvetica Neue", sans-serif
+$normal-size: 18px
+$mobile-size: 16px
+$big-size: 20px
+
+//Transition Variable
+$transition: .2s cubic-bezier(1,.55,0,.87)
+
+//Shadow Variables
+$box-shadow: 5px 5px 100px 0px rgba(27,27,27,0.16)
+$box-shadow2: 7px 7px 100px 0px rgba(27,27,27,0.16)
+
+//Border Variables
+$border-radius: 5px
+
+//Basic Components
+body
+    background-color: $white
+    overflow-x: hidden
+    font-family: $lato
+    font-size: $normal-size
+    color: $black
+    font-weight: 500
+
+@media (max-width: 600px)
+    body
+        font-size: $mobile-size
+
+
+@media (max-width: 1500px)
+    body
+        font-size: $big-size
+
+h1,h2,h3,h4,h5,h6
+    font-family: $montserrat
+
+a
+    text-decoration: none
+    color: $yellow
+    transition: $transition
+
+    &:hover, &:active, &:visited
+        color: $black
+        text-decoration: none
+
+
+//Selection
+::-moz-selection
+    text-shadow: none
+    background: $blue
+    color: $white
+    text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1)
+
+::selection
+    text-shadow: none
+    background: $blue
+    color: $white
+    text-shadow: 10px 10px 10px rgba(27, 27, 27, 0.1)
+
+img::-moz-selection
+    background: transparent
+
+img::selection
+    background: transparent
+
+img::-moz-selection
+    background: transparent
