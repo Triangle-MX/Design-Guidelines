@@ -67,11 +67,7 @@ If you need any other color (i.e. red for an alert), you can refer to <a target=
 In Triangle we use two main fonts:
 
 <ul>
-<<<<<<< HEAD
     <li><strong>Montserrat</strong> for headings and emphasis.</li>
-=======
-    <li><strong>Montserrat</strong> for headings and emphasis.<li>
->>>>>>> 35ee36024820b05697cb416ade4b99ab50eadb3c
     <li><strong>Lato</strong> for normal text.</li>
 </ul>
 
