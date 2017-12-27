@@ -1,6 +1,13 @@
 # Triangle Design Guidelines
 
-## The Logo
+## Design Values
+<ul>
+    <li>Colorful and Playful</li>
+    <li>Simple</li>
+    <li>Interactive</li>
+</ul>
+
+## Logo
 Three versions of the logo currently exist:
 
 <ul>
@@ -26,7 +33,8 @@ The **Triangle** (letter *A*), may be used as an icon or favicon. Find the relat
 ### Logo Variations
 The logo was designed as a **logo system**, which means it can be modified to suit certain topic, for example, Christmas. Find the related assets <a href="assets/logo/variations/">here</a>.
 
-## The Colors
+## Colors
+### Color Scheme
 The Triangle color scheme consists in mainly 5 colors:
 
 <ul>
@@ -52,4 +60,67 @@ The Triangle color scheme consists in mainly 5 colors:
     </li>
 </ul>
 
-If you need any other color (i.e. red for an alert), you can refer to <a href="https://flatuicolors.com">Flat UI Colors</a>.
+### Other Colors
+If you need any other color (i.e. red for an alert), you can refer to <a target="_blank" "_" href="https://flatuicolors.com">Flat UI Colors</a>.
+
+## Typography
+In Triangle we use two main fonts:
+
+<ul>
+    <li><strong>Montserrat</strong> for headings and emphasis.</li>
+    <li><strong>Lato</strong> for normal text.</li>
+</ul>
+
+
+## SASS Components
+
+### Variables
+To develop faster we have a series of basic SASS variables for things like animations, transitions, colors, typography, shadows, borders, and more...
+```sass
+//Color Variables
+$yellow: #FFB61E
+$black: #1B1B1B
+$white: #FFFFFF
+$grey: #EEEEEE
+$blue: #1E81FF
+
+//Typography Variables
+$anton: "Anton", "Helvetica Neue", sans-serif
+$montserrat: "Montserrat", "Helvetica Neue", sans-serif
+$lato: "Lato", "Helvetica Neue", sans-serif
+$normal-size: 18px
+$mobile-size: 16px
+$big-size: 20px
+
+//Transition Variable
+$transition: .2s cubic-bezier(1,.55,0,.87)
+
+//Shadow Variables
+$box-shadow: 5px 5px 100px 0px rgba(27,27,27,0.16)
+$box-shadow2: 7px 7px 100px 0px rgba(27,27,27,0.16)
+
+//Border Variables
+$border-radius: 5px
+```
+
+### Components
+This is a list of pre-built SASS components for Triangle-related sites:
+
+<ul>
+    <li><a href="assets/components/boilerplate.sass">Boilerplate</a> (Built with the variables and some basic body and typography styling).</li>
+    <li><a href="assets/components/buttons.sass">Buttons</a></li>
+    <li><a href="assets/components/form.sass">Forms</a></li>
+</ul>
+
+## Animations and Transitions
+We have a fixed transition for things like hovers (for both buttons and links), transformations, etcetera... It is:
+```sass
+//Variable
+$transition: .2s cubic-bezier(1,.55,0,.87)
+
+//Usage
+.class, #id, element    
+    transition: $transition
+```
+
+As you may note, we use `cubic-bezier(1,.55,0,.87)` for our animations and transitions, but we also accept the use of the `ease-in` curve.
