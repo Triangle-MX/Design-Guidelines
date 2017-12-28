@@ -107,7 +107,7 @@ $border-radius: 5px
 This is a list of pre-built SASS components for Triangle-related sites:
 
 <ul>
-    <li><a href="assets/components/boilerplate.sass">Boilerplate</a> (Built with the variables and some basic body and typography styling).</li>
+    <li><a href="assets/components/sass/parsec.sass">Parsec</a> (Boilerplates and Components for faster development, built by us).</li>
     <li><a href="assets/components/buttons.sass">Buttons</a></li>
     <li><a href="assets/components/form.sass">Forms</a></li>
 </ul>
